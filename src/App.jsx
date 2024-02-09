@@ -13,11 +13,11 @@ const posts = [
     author: {
       avatarUrl: 'https://github.com/Gsilvaol.png',
       name: 'Gustavo Silva de Oliveira',
-      role: 'CTO @Rocketseat'
+      role: 'Análise e desenvolvimento de Sistemas'
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragrapy', content: 'Acabei de subir mais um projeto no meu portifa.É um projeto que fiz no NLW Return, evento da Rocketseat.O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa.É um projeto que fiz no NLW Return, evento da Rocketseat.O nome do projeto é DoctorCare 🚀' },
       { type: 'link', content: 'jane.design/doctorcare' }
     ],
     publishedAt: new Date('2024-02-09 10:13:00'),
@@ -31,7 +31,7 @@ const posts = [
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragrapy', content: 'Acabei de subir mais um projeto no meu portifa.É um projeto que fiz no NLW Return, evento da Rocketseat.O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa.É um projeto que fiz no NLW Return, evento da Rocketseat.O nome do projeto é DoctorCare 🚀' },
       { type: 'link', content: 'jane.design/doctorcare' },
     ],
     publishedAt: new Date('2024-02-10 16:13:00'),
