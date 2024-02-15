@@ -1,11 +1,12 @@
 import { format, formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR'
+import { useState } from 'react';
 
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 
 import styles from './Post.module.css';
-import { useState } from 'react';
+import { func } from 'prop-types';
 
 
 export function Post({ author, publishedAt, content }) {
@@ -33,6 +34,10 @@ export function Post({ author, publishedAt, content }) {
 
     function handleNewCommentChange() {
         setNewCommentText(event.target.value);
+    }
+
+    function deleteComment(comment) {
+        console.log(`Deletar comentário ${comment}`)
     }
 
     return (
@@ -78,7 +83,13 @@ export function Post({ author, publishedAt, content }) {
 
             <div className={styles.commentList}>
                 {comments.map(comment => {
-                    return <Comment key={comment} content={comment} />
+                    return (
+                        <Comment
+                            key={comment}
+                            content={comment}
+                            onDeleteComment={deleteComment}
+                        />
+                    )
                 })}
             </div>
         </article>
