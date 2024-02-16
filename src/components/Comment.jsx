@@ -42,5 +42,9 @@ export function Comment({ content, onDeleteComment }) {
                 </footer>
             </div>
         </div>
+
+
+        
+        
     )
 }

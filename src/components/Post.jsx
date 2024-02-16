@@ -45,7 +45,7 @@ export function Post({ author, publishedAt, content }) {
         const commentsWithoutDeletedOne = comments.filter(comment => {
             return comment != commentToDelete;
         })
-            
+
         setComments(commentsWithoutDeletedOne);
     }
 
@@ -77,7 +77,7 @@ export function Post({ author, publishedAt, content }) {
                 })}
 
             </div>
-
+        
             <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
                 <strong>Deixe seu feedback</strong>
 
