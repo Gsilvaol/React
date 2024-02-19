@@ -1,8 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center"> Fundamentos React </h1>
 
-Currently, two official plugins are available:
+<p align="center">
+ignite-reactjs-01-fundamentos-react <br/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="fundamentos react" src="./src/.github/preview.jpg" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- JavaScript
+- Git e Github
+- Figma
+- Nodejs
+- React
+
+
+## 💻 Projeto
+
+Projeto que imita basicamente uma rede social, onde teremos varios posts, podendo fazer comentarios e dar varios likes, super simples mas com objetivo de aprender os fundamentos para poder começar a utilizar o Reactjs.
